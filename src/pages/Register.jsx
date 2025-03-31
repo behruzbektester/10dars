@@ -2,7 +2,7 @@ import React from "react";
 import FormInput from "../components/FormInput";
 
 function Register() {
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
 
